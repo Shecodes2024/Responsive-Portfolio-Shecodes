@@ -90,17 +90,21 @@ p {
 @media (max-width: 576px) {
   h1 {
     font-size: 38px;
+    line-height: 1.5;
   }
 
   h2 {
     font-size: 30px;
+    text-align: center;
   }
 
-  .desktop-image {
+  p {
+    text-align: center;
+  }
+
+  .project-link {
     display: none;
-  }
-
-  .content {
-    justify-content: center;
+    text-align: center;
+    margin: 0 20px;
   }
 }
